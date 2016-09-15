@@ -8,12 +8,11 @@ function computation($value, $multiplier, $currency)
 {
     $result = $value / $multiplier;
     $result = round($result, 2);
-    echo "<font color=\"red\" FACE=\"arial\" SIZE=\"3\">";
+    echo "<bold>";
     echo $value . " Swiss francs is: " . $result . $currency . " <br/><br/>";
-    echo "</font>";
+    echo "</bold>";
 }
 
-// Faktoren von aktuellen Kursen umrechnen!
 $multiplier_d = 0.91;
 $multiplier_e = 1.21;
 $multiplier_y = 0.0117;
